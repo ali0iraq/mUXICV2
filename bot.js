@@ -341,3 +341,4 @@ client.on('message', message => {
       message.channel.send(helpEmbed);
     }
 });
+client.login(process.env.BOT_TOKEN);
